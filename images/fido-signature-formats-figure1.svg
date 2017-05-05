@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 525.2 113.4"
+	 style="enable-background:new 0 0 525.2 113.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;}
+	.st1{font-family:'ArialMT';}
+	.st2{font-size:10px;}
+	.st3{font-size:9px;}
+	.st4{fill:none;}
+	.st5{font-size:8px;}
+	.st6{fill:#FFFFFF;}
+	.st7{font-size:7px;}
+</style>
+<defs>
+	
+	
+		<font-face  ascent="951.99585" cap-height="714" descent="-212.99744" font-family="Helvetica Neue" font-size="10" font-weight="500" panose-1="2 0 5 3 0 0 0 2 0 4" slope="0" underline-position="-100" underline-thickness="50" units-per-em="1000" x-height="517">
+		<font-face-src>
+			<font-face-name  name="HelveticaNeue"></font-face-name>
+		</font-face-src>
+	</font-face>
+	
+		<font-face  ascent="951.99585" cap-height="714" descent="-212.99744" font-family="Helvetica Neue" font-size="9" font-weight="500" panose-1="2 0 5 3 0 0 0 2 0 4" slope="0" underline-position="-100" underline-thickness="50" units-per-em="1000" x-height="517">
+		<font-face-src>
+			<font-face-name  name="HelveticaNeue"></font-face-name>
+		</font-face-src>
+	</font-face>
+	
+		<font-face  ascent="951.99585" cap-height="714" descent="-212.99744" font-family="Helvetica Neue" font-size="8" font-weight="500" panose-1="2 0 5 3 0 0 0 2 0 4" slope="0" underline-position="-100" underline-thickness="50" units-per-em="1000" x-height="517">
+		<font-face-src>
+			<font-face-name  name="HelveticaNeue"></font-face-name>
+		</font-face-src>
+	</font-face>
+	
+		<font-face  ascent="951.99585" cap-height="714" descent="-212.99744" font-family="Helvetica Neue" font-size="7" font-weight="500" panose-1="2 0 5 3 0 0 0 2 0 4" slope="0" underline-position="-100" underline-thickness="50" units-per-em="1000" x-height="517">
+		<font-face-src>
+			<font-face-name  name="HelveticaNeue"></font-face-name>
+		</font-face-src>
+	</font-face>
+</defs>
+<title>authenticatorData</title>
+<g>
+	<title>Layer 1</title>
+	<rect x="75.7" y="16.5" class="st0" width="136.1" height="23.2"/>
+	<line class="st0" x1="92.7" y1="16.5" x2="92.7" y2="21.1"/>
+	<line class="st0" x1="92.7" y1="35" x2="92.7" y2="39.7"/>
+	<line class="st0" x1="109.7" y1="16.5" x2="109.7" y2="21.1"/>
+	<line class="st0" x1="109.7" y1="35" x2="109.7" y2="39.7"/>
+	<line class="st0" x1="126.7" y1="16.5" x2="126.7" y2="21.1"/>
+	<line class="st0" x1="126.7" y1="35" x2="126.7" y2="39.7"/>
+	<line class="st0" x1="143.7" y1="16.5" x2="143.7" y2="21.1"/>
+	<line class="st0" x1="143.7" y1="35" x2="143.7" y2="39.7"/>
+	<line class="st0" x1="160.7" y1="16.5" x2="160.7" y2="21.1"/>
+	<line class="st0" x1="160.7" y1="35" x2="160.7" y2="39.7"/>
+	<line class="st0" x1="177.7" y1="16.5" x2="177.7" y2="21.1"/>
+	<line class="st0" x1="177.7" y1="35" x2="177.7" y2="39.7"/>
+	<line class="st0" x1="194.7" y1="16.5" x2="194.7" y2="21.1"/>
+	<line class="st0" x1="194.7" y1="35" x2="194.7" y2="39.7"/>
+	<rect x="5.6" y="70.9" class="st0" width="115.4" height="22.7"/>
+	<text transform="matrix(1 0 0 1 31.7758 86.2047)" class="st1 st2">RP ID hash</text>
+	<rect x="121" y="70.9" class="st0" width="45.4" height="22.7"/>
+	<text transform="matrix(1 0 0 1 127.7758 86.2047)" class="st1 st2">FLAGS</text>
+	<text transform="matrix(1 0 0 1 115.683 31.2833)" class="st1 st3">0</text>
+	<text transform="matrix(1 0 0 1 132.6909 31.2833)" class="st1 st3">0</text>
+	<text transform="matrix(1 0 0 1 149.6988 31.2833)" class="st1 st3">0</text>
+	<rect x="95.2" y="23.6" class="st4" width="11.8" height="10.6"/>
+	<text transform="matrix(1 0 0 1 95.2446 31.2832)" class="st1 st3">A</text>
+	<text transform="matrix(1 0 0 1 101.5446 31.2832)" class="st1 st3">T</text>
+	<text transform="matrix(1 0 0 1 78.2518 31.479)" class="st1 st3">ED</text>
+	<text transform="matrix(1 0 0 1 195.4563 31.03)" class="st1 st5">TUP</text>
+	<rect x="166.4" y="70.9" class="st0" width="101.4" height="22.7"/>
+	<text transform="matrix(1 0 0 1 193.1066 86.2047)" class="st1 st2">COUNTER</text>
+	<rect x="267.8" y="70.9" class="st0" width="130" height="22.7"/>
+	<rect x="282.1" y="77.6" class="st4" width="98" height="11.8"/>
+	<text transform="matrix(1 0 0 1 282.0908 86.2041)" class="st1 st2">ATTESTATION</text>
+	<text transform="matrix(1 0 0 1 350.9908 86.2041)" class="st1 st2"> </text>
+	<text transform="matrix(1 0 0 1 353.3908 86.2041)" class="st1 st2">DATA</text>
+	<rect x="397.8" y="70.9" class="st0" width="118.9" height="22.7"/>
+	<text transform="matrix(1 0 0 1 426.4141 86.2047)" class="st1 st2">EXTENSIONS</text>
+	<path class="st6" d="M496.9,68l2.8,9.4l-2.8,9.4l2.8,9.4h5.7l-2.8-9.4l2.8-9.4l-2.8-9.4H496.9z"/>
+	<path class="st0" d="M496.9,68l2.8,9.4l-2.8,9.4l2.8,9.4"/>
+	<path class="st0" d="M502.5,68l2.8,9.4l-2.8,9.4l2.8,9.4"/>
+	<text transform="matrix(1 0 0 1 40.2462 106.5433)" class="st1 st5">32 bytes</text>
+	<rect x="132.2" y="99.7" class="st4" width="22.2" height="9.5"/>
+	<text transform="matrix(1 0 0 1 132.2461 106.5435)" class="st1 st5">1</text>
+	<text transform="matrix(1 0 0 1 136.6461 106.5435)" class="st1 st5"> </text>
+	<text transform="matrix(1 0 0 1 139.3461 106.5435)" class="st1 st5">byte</text>
+	<rect x="169.8" y="99.7" class="st4" width="95.1" height="9.5"/>
+	<text transform="matrix(1 0 0 1 169.8452 106.5435)" class="st1 st5">4</text>
+	<text transform="matrix(1 0 0 1 174.2452 106.5435)" class="st1 st5"> </text>
+	<text transform="matrix(1 0 0 1 176.6452 106.5435)" class="st1 st5">bytes</text>
+	<text transform="matrix(1 0 0 1 195.7452 106.5435)" class="st1 st5"> </text>
+	<text transform="matrix(1 0 0 1 198.1452 106.5435)" class="st1 st5">(big-endian</text>
+	<text transform="matrix(1 0 0 1 238.1452 106.5435)" class="st1 st5"> </text>
+	<text transform="matrix(1 0 0 1 240.5452 106.5435)" class="st1 st5">uint32)</text>
+	<rect x="284" y="99.7" class="st4" width="94.3" height="9.5"/>
+	<text transform="matrix(1 0 0 1 283.9854 106.5435)" class="st1 st5">variable</text>
+	<text transform="matrix(1 0 0 1 311.9854 106.5435)" class="st1 st5"> </text>
+	<text transform="matrix(1 0 0 1 314.8854 106.5435)" class="st1 st5">length</text>
+	<text transform="matrix(1 0 0 1 336.5854 106.5435)" class="st1 st5"> </text>
+	<text transform="matrix(1 0 0 1 339.4854 106.5435)" class="st1 st5">(if</text>
+	<text transform="matrix(1 0 0 1 346.1854 106.5435)" class="st1 st5"> </text>
+	<text transform="matrix(1 0 0 1 348.9854 106.5435)" class="st1 st5">present)</text>
+	<text transform="matrix(1 0 0 1 418.9855 106.5433)" class="st1 st5">variable length (CBOR)</text>
+	<line class="st0" x1="78.5" y1="42.5" x2="118.2" y2="68"/>
+	<line class="st0" x1="208.9" y1="42.5" x2="169.2" y2="68"/>
+	<text transform="matrix(1 0 0 1 75 12.5)" class="st1 st7">7</text>
+	<text transform="matrix(1 0 0 1 166.6988 31.2833)" class="st1 st3">0</text>
+	<text transform="matrix(1 0 0 1 183.6988 31.2833)" class="st1 st3">0</text>
+</g>
+</svg>
