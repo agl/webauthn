@@ -1194,10 +1194,10 @@ a numbered step. If outdented, it (today) is rendered as a bullet in the midst o
                         :   {{AuthenticatorAttestationResponse/attestationObject}}
                         ::  |attestationObject|
 
-                        :   {{AuthenticatorAttestationResponse/transports}}
+                        :   {{AuthenticatorAttestationResponse/[[transports]]}}
                         ::  A sequence of one or more {{AuthenticatorTransport}} values. The first value is set to the transport used to obtain this registration. Further values are appended to indicate other, distinct, transports that the |authenticator| is believed to support.
 
-                            If a user agent does not wish to divulge this information it MAY choose not to include additional transports and MAY choose the first element to be a generic value rather than the actual transport used. But it MUST still include at least one value and it takes the risk that [=RP=] behaviour may be suboptimital.
+                            If a user agent does not wish to divulge this information it MAY choose not to include additional transports and MAY choose the first element to be a generic value rather than the actual transport used. But it MUST still include at least one value and it takes the risk that [=[RP]=] behaviour may be suboptimital.
 
                             Note: How user agents discover other transports supported by a given [=authenticator=] is outside the scope of this specification, but may include information from an [=attestation certificate=] (for example [[FIDO-Transports-Ext]]), metadata communicated in an [=authenticator=] protocol such as CTAP2, or special-case knowledge about a [=platform authenticator=].
 
