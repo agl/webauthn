@@ -3396,9 +3396,10 @@ When registering a new credential, represented by an {{AuthenticatorAttestationR
 1. If the attestation statement |attStmt| verified successfully and is found to be trustworthy, then register the new
     credential with the account that was denoted in the
     {{PublicKeyCredential/[[Create]](origin, options, sameOriginWithAncestors)/options}}.{{PublicKeyCredentialCreationOptions/user}} passed to
-    {{CredentialsContainer/create()}}, by associating it with the <code>[=credentialId=]</code> and
-    <code>[=credentialPublicKey=]</code> in the <code>[=attestedCredentialData=]</code> in |authData|, as appropriate for the
-    [=[RP]=]'s system.
+    {{CredentialsContainer/create()}}, by associating the account with the below values, as appropriate for the
+    [=[RP]=]'s system:
+        - <code>[=credentialId=]</code> and <code>[=credentialPublicKey=]</code> in the <code>[=attestedCredentialData=]</code> in |authData|, and
+        - the sequence of {{AuthenticatorTransport}} values returned by calling <code>|response|.{{getTransports}}()</code>.
 
 1. If the attestation statement |attStmt| successfully verified but is not trustworthy per step 16 above, the [=[RP]=] SHOULD fail
     the [=registration ceremony=].
