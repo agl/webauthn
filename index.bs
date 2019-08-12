@@ -2712,6 +2712,7 @@ Note: The {{CollectedClientData}} may be extended in the future. Therefore it's 
         required DOMString           type;
         required DOMString           challenge;
         required DOMString           origin;
+        boolean                      crossOrigin = false;
         TokenBinding                 tokenBinding;
     };
 
@@ -2736,6 +2737,9 @@ Note: The {{CollectedClientData}} may be extended in the future. Therefore it's 
     :   <dfn>origin</dfn>
     ::  This member contains the fully qualified [=origin=] of the requester, as provided to the authenticator by the client, in
         the syntax defined by [[!RFC6454]].
+
+    :   <dfn>crossOrigin</dfn>
+    ::  This member is true if and only if the request occurred in an iframe that is not [=same-origin with its ancestors=].
 
     :   <dfn>tokenBinding</dfn>
     ::  This OPTIONAL member contains information about the state of the [=Token Binding=] protocol [[!TokenBinding]] used when communicating
@@ -3952,6 +3956,8 @@ When registering a new credential, represented by an {{AuthenticatorAttestationR
 
 1. Verify that the value of <code>|C|.{{CollectedClientData/origin}}</code> matches the [=[RP]=]'s [=origin=].
 
+1. Verify that the value of <code>|C|.{{CollectedClientData/crossOrigin}}</code> matches the [=[RP]=]'s expectation of whether this operation should be occuring across [=origin=]s.
+
 1. Verify that the value of <code>|C|.{{CollectedClientData/tokenBinding}}.{{TokenBinding/status}}</code> matches the state of [=Token Binding=] for the TLS connection over which the [=assertion=] was obtained. If [=Token Binding=] was used on that TLS connection, also verify that <code>|C|.{{CollectedClientData/tokenBinding}}.{{TokenBinding/id}}</code> matches the [=base64url encoding=] of the [=Token Binding ID=] for the connection.
 
 1. Let |hash| be the result of computing a hash over <code>|response|.{{AuthenticatorResponse/clientDataJSON}}</code> using SHA-256.
@@ -4084,6 +4090,8 @@ When verifying a given {{PublicKeyCredential}} structure (|credential|) and an {
     the base64url encoding of <code>|options|.{{PublicKeyCredentialRequestOptions/challenge}}</code>.
 
 1. Verify that the value of <code>|C|.{{CollectedClientData/origin}}</code> matches the [=[RP]=]'s [=origin=].
+
+1. Verify that the value of <code>|C|.{{CollectedClientData/crossOrigin}}</code> matches the [=[RP]=]'s expectation of whether this operation should be occuring across [=origin=]s.
 
 1. Verify that the value of <code>|C|.{{CollectedClientData/tokenBinding}}.{{TokenBinding/status}}</code> matches the state of [=Token Binding=] for the TLS connection over which the attestation was obtained. If [=Token Binding=] was used on that TLS connection, also verify that <code>|C|.{{CollectedClientData/tokenBinding}}.{{TokenBinding/id}}</code> matches the [=base64url encoding=] of the [=Token Binding ID=] for the connection.
 
